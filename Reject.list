@@ -497,19 +497,6 @@ DOMAIN-SUFFIX,atm.youku.com
 DOMAIN,ad.mobile.youku.com
 DOMAIN,iyes.youku.com
 
-# >> YouTube
-URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost
-URL-REGEX,https?:\/\/.+.youtube.com\/api\/stats\/ads
-URL-REGEX,https?:\/\/.+.youtube.com\/get_midroll_
-URL-REGEX,https?:\/\/.+.youtube.com\/pagead\/
-URL-REGEX,https?:\/\/.+.youtube.com\/ptracking\?
-URL-REGEX,https?:\/\/m.youtube.com\/_get_ads
-URL-REGEX,https?:\/\/premiumyva.appspot.com\/vmclickstoadvertisersite
-URL-REGEX,https?:\/\/s0.2mdn.net\/ads\/
-URL-REGEX,https?:\/\/stats.tubemogul.com\/stats\/
-URL-REGEX,https?:\/\/youtubei.googleapis.com\/.+ad_break
-URL-REGEX,https?:\/\/youtubei.googleapis.com\/youtubei\/.+(ad|log)
-
 # >> ZOL
 DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
