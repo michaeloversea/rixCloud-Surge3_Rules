@@ -65,6 +65,9 @@ DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,windows.net
 
+# >> Oracle
+DOMAIN-SUFFIX,oracle.com
+
 # >> Other
 DOMAIN,ccmdl.adobe.com
 DOMAIN,media.steampowered.com
