@@ -1,0 +1,38 @@
+name: Release Rules
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Deploy
+      env:
+        MAPPING_FILE: mapping.json
+        API_ENDPOINT: "https://api.rixcloud.io/v2"
+        USER_TOKEN: ${{ secrets.USER_TOKEN }}
+
+      run: |
+        RULESETS=$(cat $MAPPING_FILE | jq -r "keys | join(\" \")")
+        
+        for RULE in $RULESETS; do
+          RULE_NAME=$(cat $MAPPING_FILE | jq -r '.["'$RULE'"]')
+          RULE_DATA=$(cat $RULE_NAME)
+
+          # POST as rule set
+          echo "Starting upload $RULE_NAME"
+
+          jq -n --arg data "$RULE_DATA" '{"data": $data}' | curl -X PATCH \
+              $API_ENDPOINT/profile/cloud/ruleset/$RULE \
+              -H "Content-Type: application/json; charset=utf-8" \
+              -u $USER_TOKEN \
+              -d @- \
+              -s 
+
+          echo ""
+        done
