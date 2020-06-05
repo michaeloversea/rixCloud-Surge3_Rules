@@ -2,7 +2,9 @@
 
 # >>rixCloud
 DOMAIN,doh.rixcloud.dev
-DOMAIN,rixcloudstatus.com
+DOMAIN-SUFFIX,rixcloudstatus.com
+DOMAIN-SUFFIX,rixcloudstatus.io
+DOMAIN-SUFFIX,rixcloud.fail
 
 # >> 360
 DOMAIN-SUFFIX,qhimg.com
