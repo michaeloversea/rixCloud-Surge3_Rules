@@ -1,4 +1,4 @@
-# --- Enhanced Anti-GFW ---
+# --- Enhanced Global Services ---
 
 # >> Cloudflare
 DOMAIN-SUFFIX,cloudflareresolve.com,force-remote-dns
@@ -127,4 +127,4 @@ DOMAIN-KEYWORD,jav,force-remote-dns
 DOMAIN-KEYWORD,pinterest,force-remote-dns
 DOMAIN-KEYWORD,porn,force-remote-dns
 
-# --- End of Enhanced Anit-GFW Section ---
+# --- End of Enhanced Global Services Section ---
