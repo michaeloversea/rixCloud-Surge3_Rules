@@ -85,6 +85,7 @@ DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,analysys.cn
 DOMAIN-SUFFIX,api.appsee.com
 DOMAIN-SUFFIX,app-adforce.jp
+DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appboy.com
 DOMAIN-SUFFIX,appier.net
 DOMAIN-SUFFIX,appnext.com
@@ -140,6 +141,7 @@ DOMAIN-SUFFIX,inmobi.cn
 DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,instabug.com
 DOMAIN-SUFFIX,irs01.com
+DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,juicyads.com
 DOMAIN-SUFFIX,kejet.net
 DOMAIN-SUFFIX,knlob.com
@@ -186,6 +188,7 @@ DOMAIN-SUFFIX,simplepath.com
 DOMAIN-SUFFIX,skimresources.com
 DOMAIN-SUFFIX,smardroid.com
 DOMAIN-SUFFIX,snnd.co
+DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,sonobi.com
 DOMAIN-SUFFIX,ssl2.duapps.com
 DOMAIN-SUFFIX,starmobs.com
@@ -325,6 +328,7 @@ DOMAIN,log.ycapp.yiche.com
 # >> Bilibili
 
 DOMAIN,thirdparty.biliapi.com
+DOMAIN,thirdparty.biliapi.net
 DOMAIN,cm.bilibili.com
 URL-REGEX,https://app.bilibili.com/x/v2/param
 URL-REGEX,https://app.bilibili.com/x/resource/abtest
