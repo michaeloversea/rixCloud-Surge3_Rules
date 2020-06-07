@@ -141,7 +141,6 @@ DOMAIN-SUFFIX,inmobi.cn
 DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,instabug.com
 DOMAIN-SUFFIX,irs01.com
-DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,juicyads.com
 DOMAIN-SUFFIX,kejet.net
 DOMAIN-SUFFIX,knlob.com
@@ -487,6 +486,13 @@ DOMAIN-SUFFIX,data.mistat.xiaomi.com
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN,adv.sec.miui.com
 DOMAIN,o2o.api.xiaomi.com
+
+# >> XiGuaVideo
+DOMAIN,v1-dc-ad.ixigua.com
+DOMAIN,v3-ad.ixigua.com
+DOMAIN,v3-dc-ad.ixigua.com
+DOMAIN,v6-dc-ad.ixigua.com
+DOMAIN,v9-dc-ad.ixigua.com
 
 # >> XiMaLaYa
 DOMAIN,ad.ximalaya.com
