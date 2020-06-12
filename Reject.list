@@ -187,7 +187,6 @@ DOMAIN-SUFFIX,simplepath.com
 DOMAIN-SUFFIX,skimresources.com
 DOMAIN-SUFFIX,smardroid.com
 DOMAIN-SUFFIX,snnd.co
-DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,sonobi.com
 DOMAIN-SUFFIX,ssl2.duapps.com
 DOMAIN-SUFFIX,starmobs.com
@@ -248,6 +247,7 @@ DOMAIN,adxserver.ad.cmvideo.cn
 DOMAIN,app-ad.variflight.com
 DOMAIN,applog.mobike.com
 DOMAIN,appnext.hs.llnwd.net
+DOMAIN.extlog.snssdk.com
 DOMAIN,ggs.myzaker.com
 DOMAIN,log.b612kaji.com
 DOMAIN,log.snssdk.com
