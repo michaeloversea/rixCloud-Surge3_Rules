@@ -32,6 +32,7 @@ DOMAIN,log.ys7.com
 DOMAIN,logs.chelaile.net.cn
 DOMAIN,mopnativeadv.037201.com
 DOMAIN,nativeadv.dftoutiao.com
+DOMAIN,pangolin.snssdk.com
 DOMAIN,report.jpush.cn
 DOMAIN,s0.2mdn.net
 DOMAIN,static.jpush.cn
@@ -512,7 +513,7 @@ DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
 
 # >> Zhihu
-
+DOMAIN,js.shshuoshu.com
 DOMAIN,mqtt.zhihu.com
 DOMAIN-SUFFIX,xdrig.com
 URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|ab|banners|market/popover|mqtt)
