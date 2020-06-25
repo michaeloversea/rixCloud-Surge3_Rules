@@ -35,6 +35,7 @@ USER-AGENT,%E4%BC%98%E9%85%B7*
 
 # >> Apple
 DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN,gs-loc-cn.apple.com
 
 # >> Baidu
 DOMAIN-SUFFIX,baidu.com
