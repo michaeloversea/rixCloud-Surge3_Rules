@@ -24,7 +24,6 @@ DOMAIN,applog.mobike.com
 DOMAIN,appnext.hs.llnwd.net
 DOMAIN,ggs.myzaker.com
 DOMAIN,log.b612kaji.com
-DOMAIN,log.snssdk.com
 DOMAIN,log.star.ele.me
 DOMAIN,log.umsns.com
 DOMAIN,log.voicecloud.cn
@@ -32,7 +31,6 @@ DOMAIN,log.ys7.com
 DOMAIN,logs.chelaile.net.cn
 DOMAIN,mopnativeadv.037201.com
 DOMAIN,nativeadv.dftoutiao.com
-DOMAIN,pangolin.snssdk.com
 DOMAIN,report.jpush.cn
 DOMAIN,s0.2mdn.net
 DOMAIN,static.jpush.cn
@@ -248,10 +246,8 @@ DOMAIN,adxserver.ad.cmvideo.cn
 DOMAIN,app-ad.variflight.com
 DOMAIN,applog.mobike.com
 DOMAIN,appnext.hs.llnwd.net
-DOMAIN,extlog.snssdk.com
 DOMAIN,ggs.myzaker.com
 DOMAIN,log.b612kaji.com
-DOMAIN,log.snssdk.com
 DOMAIN,log.star.ele.me
 DOMAIN,log.umsns.com
 DOMAIN,log.voicecloud.cn
@@ -465,6 +461,11 @@ DOMAIN,splashqqlive.gtimg.com
 DOMAIN,tajs.qq.com
 
 # >> TikTok (include China / Internation Version)
+DOMAIN,bds.snssdk.com
+DOMAIN,extlog.snssdk.com
+DOMAIN,log.snssdk.com
+DOMAIN,pangolin.snssdk.com
+DOMAIN,snr.snssdk.com
 URL-REGEX,^https:\/\/[a-zA-Z]{2}\.snssdk\.com\/api\/ad\/
 
 # >> Tonghuahshun
