@@ -37,7 +37,6 @@ DOMAIN,static.jpush.cn
 DOMAIN,static.vuevideo.net
 DOMAIN,stats.jpush.cn
 DOMAIN,stats.umsns.com
-DOMAIN,sugar.zhihu.com
 DOMAIN,track.58.com
 DOMAIN,track.tiara.daum.net
 DOMAIN,track.tiara.kakao.com
@@ -264,7 +263,6 @@ DOMAIN,static.jpush.cn
 DOMAIN,static.vuevideo.net
 DOMAIN,stats.jpush.cn
 DOMAIN,stats.umsns.com
-DOMAIN,sugar.zhihu.com
 DOMAIN,track.58.com
 DOMAIN,track.tiara.daum.net
 DOMAIN,track.tiara.kakao.com
@@ -514,15 +512,17 @@ DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
 
 # >> Zhihu
+DOMAIN,sugar.zhihu.com
 DOMAIN,js.shshuoshu.com
 DOMAIN,mqtt.zhihu.com
 DOMAIN-SUFFIX,xdrig.com
-URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|ab|banners|market/popover|mqtt)
-URL-REGEX,https://api.zhihu.com.*(launch|recommendations)
-URL-REGEX,https://api.zhihu.com/search/(top|tabs|preset)
-URL-REGEX,https://api.zhihu.com/answers/.*/comments/featured-comment-ad
-AND,((USER-AGENT,ZhihuHybrid*), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN,static.zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))), (NOT,((DOMAIN,daily.zhihu.com))), (NOT,((DOMAIN,link.zhihu.com))))
-AND,((USER-AGENT,osee2*), (NOT,((DOMAIN,api.zhihu.com))), (NOT,((DOMAIN,lens.zhihu.com))), (NOT,((DOMAIN,static.zhihu.com))), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/terms\/privacy\/confirm
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/market\/popover
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/search\/(top|tab|preset)
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/(launch|ad-style-service|app_config|real_time|ab\/api)
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time)
+URL-REGEX,^https?:\/\/(api|www)\.zhihu\.com\/.*(featured-comment-ad|recommendations|community-ad)
+URL-REGEX,^https?:\/\/(api|www)\.zhihu\.com\/(fringe|adx|commercial|ad-style-service|banners|mqtt)
 
 # --- End of Anti-AD Section ---
 
